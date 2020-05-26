@@ -33,11 +33,11 @@
 }
 /* End Current Fonts */
 
-#homelabBody {
+#datacenterBody {
   background-color: #e5e5e5;
 }
 
-#homelabMain {
+#datacenterMain {
   margin-top: 160px;
   text-align: center;
   font-family: bitstream_vera_sans_monoroman;
@@ -54,13 +54,13 @@
   clear: both;
 }
 
-#homelab1 {
+#datacenter1 {
   width: 60%;
   position: relative;
   z-index: -1;
 }
 
-#homelab2 {
+#datacenter2 {
   width: 60%;
   position: relative;
   z-index: -1;
