@@ -35,7 +35,7 @@
 
 #mainHeaderName {
 	text-align: center;
-	font-size: 200%;
+	font-size: 205%;
 	font-family: bitstream_vera_sans_monobold;
 	color: white;
 }
@@ -69,6 +69,7 @@
 
 .headerMenuItemClass, .headerMenuItemClassProject {
 	font-family: bitstream_vera_sans_monoroman;
+  font-size: 110%;
 	text-decoration: none;
 	color: white;
 }

@@ -38,38 +38,67 @@
 }
 
 #datacenterMain {
-  margin-top: 160px;
+  margin-top: 170px;
   text-align: center;
   font-family: bitstream_vera_sans_monoroman;
 }
 
-.lab-column{
-  float: left;
-  width: 40%;
+.generationBanner {
+  position: relative;
+  left: 0;
+  width: 100%;
+  background-color: #23374d;
+  height: 30px;
 }
 
-.lab-row:after {
+.generationBannerText {
+  font-family: bitstream_vera_sans_monoroman;
+  font-size: 100%;
+  color: white;
+  text-align: left;
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+.generationText {
+  font-family: bitstream_vera_sans_monoroman;
+  font-size: 110%;
+  color: black;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
+
+.generationImages {
+  display: inline-block;
+  width: 100%;
+}
+
+#datacenterImages {
+  width: 20%;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#gen2Graphic {
+  width: 55%;
+}
+
+.gen2Text {
+  padding-top: 75px;
+}
+
+.column{
+  float: left;
+  width: 60%;
+}
+
+.row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-#datacenter1 {
-  width: 60%;
-  position: relative;
-  z-index: -1;
-}
-
-#datacenter2 {
-  width: 60%;
-  position: relative;
-  z-index: -1;
-}
-
-.lab-column li{
-  margin-top: 30px;
-}
-
-.lab-column li a{
-  margin-top: 5px;
 }
