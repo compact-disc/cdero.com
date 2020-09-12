@@ -48,15 +48,15 @@
   left: 0;
   width: 100%;
   background-color: #23374d;
-  height: 30px;
+  height: 2vw;
 }
 
 .generationBannerText {
   font-family: bitstream_vera_sans_monoroman;
-  font-size: 100%;
+  font-size: 1vw;
   color: white;
   text-align: left;
-  padding-top: 7px;
+  padding-top: 5px;
   padding-right: 20px;
   padding-left: 10px;
   padding-bottom: 7px;
@@ -64,7 +64,7 @@
 
 .generationText {
   font-family: bitstream_vera_sans_monoroman;
-  font-size: 110%;
+  font-size: 1vw;
   color: black;
   padding-top: 10px;
   padding-right: 20px;
@@ -86,19 +86,4 @@
 
 #gen2Graphic {
   width: 55%;
-}
-
-.gen2Text {
-  padding-top: 75px;
-}
-
-.column{
-  float: left;
-  width: 60%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
